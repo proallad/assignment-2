@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* shared styles */
+
+  /* header styles  */
+  /* nav bar styles */
+  .display-flex{
+    display: flex;
+  }
+  
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px;
+}
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+  }
+  .nav-link{
+text-decoration: none;
+  }
+  .nav-text-first{
+    color: rgba(254, 163, 1, 1);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .nav-text-second{
+    color: rgba(1, 172, 253, 1);
+    font-size: 20px;
+    font-weight: medium;
+  }
+  .nav-text-third{
+    color: rgba(5, 212, 223, 1);
+    font-size: 20px;
+    font-weight: medium;
+  }
+  .nav-text-four{
+    color: rgba(93, 88, 239, 1);
+    font-size: 20px;
+    font-weight: medium;
+  }
+  .button-text{
+
+background-color: rgba(254, 163, 1, 1);
+border-radius: 12px;
+text-align: center;
+font-size: 20px;
+font-weight: semibold;
+color: white;
+padding: 10px 60.5px;
+border: none;
+
+
+  }
+
+.bg-light{
+    background-color: white;
+   
+}
+.navbar, .banner{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.school{
+   margin: 0;
+   padding: 11px 11px;
+   gap: none;
+   font-size: 32px;
+}
+
+.banner{
+    max-width: 1150px;
+    padding: 122px;
+    
+    
+}
+.banner-text{
+    color: rgba(254, 163, 1, 1);
+    font-size: 56px;
+    font-weight: bold;
+}
+.banner-sec-text{
+    color: black;
+    font-size: 56px;
+    font-weight: bold;
+}
+.banner-third-text{
+    color: rgba(1, 172, 253, 1);
+    font-size: 56px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 20px;
+}
+.button-second{
+    background-color: rgb(0, 0, 0);
+border-radius: 12px;
+text-align: center;
+font-size: 20px;
+font-weight: semibold;
+color: white;
+padding: 10px 47px;
+border: none;
+}
+
+.banner-flex{
+    display: flex;
+    gap: 50px;
+}
