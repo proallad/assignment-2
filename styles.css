@@ -117,3 +117,68 @@ border: none;
     display: flex;
     gap: 50px;
 }
+
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 30px 490px ;
+  text-align: center;
+  
+}
+.curriculum-title{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgba(32, 32, 32, 1);
+  text-align: center;
+  /* padding: 22px 52px; */
+}
+.Curriculum-container{
+  display: flex;
+  gap: 28px;
+  margin-top: 80px;
+}
+
+.curriculum-description{
+  padding: 23px 32px;
+}
+.cu-one{
+border-radius: 18px;
+background-color: rgba(222, 245, 255, 1);
+box-shadow: rgba(0, 0, 0, 0.05);
+}
+.cu-two{
+  border-radius: 18px;
+  background-color: rgba(255, 244, 220, 1);
+box-shadow: rgba(0, 0, 0, 0.05);
+
+}
+.cu-three{
+  border-radius: 18px;
+  background-color: rgba(242, 232, 255, 1);
+box-shadow: rgba(0, 0, 0, 0.05);
+
+}
+
+.cu-one-butn{
+  background: none;
+ border: none;
+ font-size: 15px;
+ font-weight: bold;
+ color: rgba(100, 200, 255, 1);
+}
+.cu-two-btn{
+  background: none;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(240, 170, 0, 1);
+}
+
+.cu-three-btn{
+  
+  background: none;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color:rgba(135, 0, 255, 1);
+}
