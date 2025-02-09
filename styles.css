@@ -182,3 +182,28 @@ box-shadow: rgba(0, 0, 0, 0.05);
   font-weight: bold;
   color:rgba(135, 0, 255, 1);
 }
+
+.button-modify{
+  border-radius: 90px;
+ margin-top: 80px;
+  
+}
+.our{
+  font-size: 45px;
+}
+.img-one{
+  width: 50%;
+  border-radius: 18px;
+background-color: white;
+border-radius: 16px;
+box-shadow: rgba(255, 255, 255, 1);
+}
+.img-one img{
+width: 100%;
+
+}
+.four-img{
+  display: grid;
+  grid-template-columns: 1fr,1fr   ;
+}
+
