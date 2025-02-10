@@ -18,7 +18,7 @@
 .navbar {
   justify-content: space-between;
   align-items: center;
-  padding: 0 140px;
+  /* padding: 0 140px; */
 }
 .nav-item {
   list-style: none;
@@ -68,7 +68,8 @@
 }
 .school {
   margin: 0;
-  padding: 11px 11px;
+  
+   padding: 11px 11px;
   gap: none;
   font-size: 32px;
 }
@@ -114,7 +115,7 @@
 main {
   max-width: 1140px;
   margin: 0 auto;
-
+width: 100%;
   text-align: center;
 }
 .curriculum-title {
@@ -200,16 +201,19 @@ main {
 .view-margin{
   margin-top: 80px;
 }
-.secodary-bg{
+.secondary-bg{
   background-color: rgba(254, 163, 1, 0.3);
+  color: black ;
+  
 }
 
-
+/* footer section  rgba(254, 163, 1, 0.3) */
 
 .footer {
   background-color: #03A9F4;
   color: white;
   padding: 40px 20px;
+  margin-top: 60px;
 }
 
 .container {
@@ -217,14 +221,15 @@ main {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  align-items: center;
+  
 }
 
 .footer-section {
   flex: 1;
   min-width: 250px;
-  margin: 20px;
+  margin: 40px;
+  text-align: left;
 }
 ul {
   list-style: none;
@@ -237,10 +242,4 @@ ul li {
 ul li a {
   text-decoration: none;
   color: white;
-  font-size: 14px;
-  transition: 0.3s;
-}
-
-ul li a:hover {
-  color: #FFD700;
-}
+  font-size: 14px;}
