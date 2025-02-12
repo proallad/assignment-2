@@ -257,36 +257,23 @@ ul li a {
 
   /* mobile section */
 
-  @media (max-width: 768px) {
-    nav ul {
-        display: none;
-        flex-direction: column;
-        position: relative;
-        background: white;
-       
-        top: 60px;
-        left: 0;
-        text-align: center;
-    }
-    nav .button-text {
-      display: none;
-    }
-    .nav-item{
-      display: none;
-    }
+@media screen and (max-width: 576px) and (max-width:992px){
+  .navbar, .nav-links{
+    flex-direction: column;
+  }
 
-    nav ul li {
-        padding: 10px;
-    }
+  .nav-item{
+    display: none;
+  }
+  .nav-links, .button-text{
+    display: none;
+  }
+.brand school{
+  display: none;
+}
+.banner, .banner-flex, .bg-light{
+grid-template-columns: 1fr;
+}
 
-    .menu-icon {
-        display: block;
-    }
 
-    /* Show menu when checkbox is checked */
-    
-    .curriculum-container, .stories-container {
-        flex-direction: column;
-        align-items: center;
-    }
 }
